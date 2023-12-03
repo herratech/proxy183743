@@ -5,6 +5,6 @@
     <META HTTP-EQUIV="Access-Control-Allow-Origin" CONTENT="https://herratech.net">
 </head>
 <body>
-    <script type="text/javascript">document.getElementById("HTINPSite").contentWindow.postMessage("","https://herratech.net")</script>
+    <script type="text/javascript">window.onload=function(){document.getElementById("HTINPSite").contentWindow.postMessage("","https://herratech.net");}</script>
     <iframe id="HTINPSite" src="https://herratech.net" frameborder="0"></frame> 
 </body>
